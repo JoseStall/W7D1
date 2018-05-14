@@ -3,5 +3,7 @@ class StaticPagesController < ApplicationController
   end
 
   def index
+  	@users = User.all
+  	p @users
   end
 end
