@@ -13,6 +13,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'capybara'
 
 group :development, :test do
   gem 'sqlite3'
