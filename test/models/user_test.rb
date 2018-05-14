@@ -3,7 +3,7 @@ require 'test_helper'
 class UserTest < ActionDispatch::IntegrationTest
 
 	def setup
-		@user =	User.new(first_name: "test", last_name: "test",email: "test@test.com", password: "mdpmdp")
+		@user =	User.new(first_name: "test", last_name: "test",email: "test@test.t", password: "mdpmdp")
 	end
 
 	test "should be valid" do
